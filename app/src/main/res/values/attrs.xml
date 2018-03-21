@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBar">
+        <!-- 标题尺寸大小. -->
+        <attr name="titleSize" format="dimension" />
+        <!-- 标题字体颜色. -->
+        <attr name="titleColor" format="color" />
+        <!-- 标题栏背景颜色. -->
+        <attr name="backgroundColor" format="color" />
+        <!-- 左边返回按钮处的图标. -->
+        <attr name="imgIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

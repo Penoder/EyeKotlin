@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private var mainBinding: ActivityMainBinding? = null
 
-    var text: ObservableField<String> = ObservableField("Button")
+//    var text: ObservableField<String> = ObservableField("Button")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * 点击事件
      */
-    var onClickCommand = ReplyCommand<Any>(Action0 {
-        text.set("666666")
-    })
+//    var onClickCommand = ReplyCommand<Any>(Action0 {
+//        text.set("666666")
+//    })
 }
